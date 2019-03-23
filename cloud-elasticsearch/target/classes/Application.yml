@@ -1,0 +1,9 @@
+server:
+  port: 7081
+
+spring:
+  elasticsearch:
+    jest:
+      uris:
+        - http://localhost:9200
+      read-timeout: 5000
